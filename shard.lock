@@ -1,8 +1,8 @@
 version: 1.0
 shards:
   amber:
-    path: ../../
-    version: 0.3.6
+    github: amberframework/amber
+    commit: c7ffd11d6c65c5347aca41fa0580c7c8d6265e60
 
   callback:
     github: mosop/callback
