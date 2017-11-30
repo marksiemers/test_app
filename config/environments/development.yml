@@ -1,0 +1,19 @@
+secret_key_base: YHDlcBiSnYQNvUiJGDJMLwjvv2KgSS_-cVCuMIC0MwY
+port: 3000
+name: test_app
+colorize_logging: true
+host: localhost
+port_reuse: true
+process_count: 1
+# ssl_key_file:
+# ssl_cert_file:
+redis_url: "redis://localhost:6379"
+database_url: postgres://postgres:@localhost:5432/test_app_development
+session:
+  key: amber.session
+  store: signed_cookie
+  expires: 0
+
+secrets:
+  description: Store your development secrets credentials and settings here.
+
